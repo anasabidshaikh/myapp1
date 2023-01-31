@@ -9,8 +9,18 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          Let's get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
+        </p>
+        <p 
+        className='hello'
+        style={{ 
+          color: "greenyellow", 
+          background: "grey", 
+          fontSize: "20px", 
+          borderRadius: "50%",
+          }}>
+          new paragraph!
         </p>
         <div>
           <a
@@ -30,6 +40,7 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <div>Hello World</div>
 
       <div className={styles.center}>
         <Image
